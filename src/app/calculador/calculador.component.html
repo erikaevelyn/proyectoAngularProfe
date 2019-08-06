@@ -1,0 +1,11 @@
+<div class="contenedor-componente">
+    <input type="number" name="precio" [(ngModel)]="precio" placeholder="precio">
+
+    <button (click)="calcular()">
+        Calcular
+    </button>
+
+    <div *ngIf="precioConEnvio">
+        El precio calculado es {{precioConEnvio}}
+    </div>
+</div>

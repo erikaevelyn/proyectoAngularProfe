@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.contenedor-componente {
+    border: 1px red solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
